@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 4.0)
-project(untitled3)
-
-set(CMAKE_CXX_STANDARD 20)
-
-add_executable(untitled3 src/main.cpp)
+cmake_minimum_required(VERSION 3.20)
+project(cpp_cmake_git_lab LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_executable(untitled3 src/main.cpp src/math.cpp)
+target_include_directories(untitled3 PRIVATE include)
