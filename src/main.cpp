@@ -1,6 +1,6 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, GitHub + CMake!" << std::endl;
+    std::cout << "Message B" << std::endl;
     return 0;
 }
